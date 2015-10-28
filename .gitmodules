@@ -1,3 +1,6 @@
 [submodule "evernote-sdk-python"]
 	path = evernote-sdk-python
 	url = https://github.com/evernote/evernote-sdk-python.git
+[submodule "virtualenv"]
+	path = virtualenv
+	url = https://github.com/pypa/virtualenv.git
