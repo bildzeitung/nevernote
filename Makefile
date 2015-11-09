@@ -1,7 +1,7 @@
 # Makefile
 #
 
-VIRTUALENV=../virtualenv/virtualenv.py
+VIRTUALENV=./virtualenv/virtualenv.py
 
 venv: venv/bin/activate
 
