@@ -1,2 +1,3 @@
 -e ./evernote-sdk-python
 -e ./nevernote
+pylint
