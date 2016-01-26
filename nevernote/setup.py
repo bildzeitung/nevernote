@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+import os
+
 from setuptools import setup, find_packages
 
 setup(
@@ -15,5 +17,8 @@ setup(
     ],
     tests_require=[
     ],
-    vcversioner={}
+    vcversioner={
+        'root': os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'),
+        'version_module_paths': ['nevernote/_version.py'],
+    }
 )
